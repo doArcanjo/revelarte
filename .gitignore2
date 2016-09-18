@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules
 *.log
 .DS_Store
@@ -40,3 +41,4 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+>>>>>>> c8df7100fde838a28c7677a64f6523289af67d27
