@@ -25,7 +25,7 @@
         <div class="row well " style="opacity: 0.9 ">
                 <div class="col-md-6 portfolio-item ">
                     <a href="um_homem_para_a_eternidade.html">
-                        <img class="img-responsive " width="75% " src="img/um_homem_para_a_eternidade.jpg ">
+                        <img class="img-responsive " width="75% " src="../assets/img/um_homem_para_a_eternidade.jpg">
                     </a>
                     <h3>Quarta-feira, 9 de Dezembro às 21h30</h3>
                     <h3><a href="um_homem_para_a_eternidade.html ">Um Homem para a Eternidade <p><i></i></p> </a>
@@ -42,7 +42,7 @@
 
                 <div class="col-md-6 portfolio-item ">
                     <a href="os_olhos_da_asia.html ">
-                        <img class="img-responsive " width="76% " src="img/os_olhos_da_asia.jpg ">
+                        <img class="img-responsive " width="76% " src="../assets/img/os_olhos_da_asia.jpg">
                     </a>
                     <h3>Quinta-feira, 10 de Dezembro às 21h30</h3>
                     <h3><a href="os_olhos_da_asia.html">Os Olhos da Ásia<p><i></i></p> </a>
@@ -61,7 +61,7 @@
             <div class="row well " style="opacity: 0.9 ">
                 <div class="col-md-6 portfolio-item ">
                     <a href="tangerina.html ">
-                        <img class="img-responsive " width="82% " src="img/tangerina.jpg ">
+                        <img class="img-responsive " width="82% " src="../assets/img/tangerina.jpg">
                     </a>
                     <h3>Sexta-feira, 11 de Dezembro às 21h30</h3>
                     <h3><a href="tangerina.html">Tangerinas</a>
@@ -79,7 +79,7 @@
 
                 <div class="col-md-6 portfolio-item ">
                     <a href="o_misterio_dos_santos_inocentes.html">
-                        <img class="img-responsive " width="76% " src="img/o_misterio_dos_santos_inocentes.jpg ">
+                        <img class="img-responsive " width="76% " src="../assets/img/o_misterio_dos_santos_inocentes.jpg">
                     </a>
                     <h3>Sábado, 12 de Dezembro às 18h30</h3>
                     <h3><a href="o_misterio_dos_santos_inocentes.html">Apresentação do Livro <p><i>"O Mistério dos Santos Inocentes"</i></p></a></h3>
@@ -95,7 +95,7 @@
             <div class="row well " style="opacity: 0.9 ">
                 <div class="col-md-6 portfolio-item ">
                     <a href="timbuktu.html ">
-                        <img class="img-responsive " width="87% " src="img/timbuktu.jpg ">
+                        <img class="img-responsive " width="87% " src="../assets/img/timbuktu.jpg">
                     </a>
                     <h3>Sábado, 12 de Dezembro às 21h30</h3>
                     <h3><a href="timbuktu.html">Timbuktu</a></h3>
@@ -110,7 +110,7 @@
 
                 <div class="col-md-6 portfolio-item ">
                     <a href="andrei_rublev.html ">
-                        <img class="img-responsive " width="70% " src="img/andrei_rublev.jpg ">
+                        <img class="img-responsive " width="70% " src="../assets/img/andrei_rublev.jpg">
                     </a>
                     <h3>Domingo, 13 de Dezembro às 21h30</h3>
                     <h3><a href="andrei_rublev.html ">Andrei Rublev</a></h3>

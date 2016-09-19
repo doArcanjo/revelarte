@@ -11,7 +11,7 @@
         <div class="carousel-inner">
             <div class="item active">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Ciclo Cinema de Almada'); background-position:'right bottom';">
-                    <img src="img/LOGO_300_290.png" width='18%'>
+                    <img src="../assets/img/LOGO_300_290.png" width='18%'>
                 </div>
 
                 <div class="carousel-caption">
@@ -29,7 +29,7 @@
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Forum Romeu Correia');">
-                    <img src="img/LOGO_300_290.png" width="18%" allign="bottom">
+                    <img src="../assets/img/LOGO_300_290.png" width="18%" allign="bottom">
                 </div>
                 <div class="carousel-caption">
                     <h1> <a href="local.html">Almada</a>
