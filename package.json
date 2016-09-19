@@ -1,6 +1,6 @@
 {
   "name": "revelarte",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "revelar-te.com",
   "main": "client/index.js",
   "scripts": {
@@ -11,9 +11,9 @@
   "author": "Joao M. Arcanjo",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.0.0-rc.1",
-    "vue-router": "^2.0.0-rc.3",
-    "vuex": "^2.0.0-rc.4",
+    "vue": "^2.0.0-rc.5",
+    "vue-router": "^2.0.0-rc.5",
+    "vuex": "^2.0.0-rc.5",
     "vuex-router-sync": "^3.0.0"
   },
   "devDependencies": {
@@ -21,8 +21,8 @@
     "babel-loader": "^6.2.4",
     "babel-helper-vue-jsx-merge-props": "^2.0.1",
     "babel-plugin-syntax-jsx": "^6.13.0",
-    "babel-plugin-transform-vue-jsx": "^3.0.0",
-    "babel-preset-es2015": "^6.13.2",
+    "babel-plugin-transform-vue-jsx": "^3.1.0",
+    "babel-preset-es2015": "^6.14.0",
     "babel-preset-stage-1": "^6.13.0",
     "css-loader": "^0.23.1",
     "cross-env": "^2.0.0",
@@ -37,7 +37,7 @@
     "style-loader": "^0.13.1",
     "vue-loader": "^9.3.2",
     "webpack": "^2.1.0-beta.20",
-    "webpack-dev-middleware": "^1.6.1",
+    "webpack-dev-middleware": "^1.8.1",
     "webpack-hot-middleware": "^2.12.2"
   }
 }
