@@ -22,7 +22,7 @@
                 <hr>
             </div>
         </div>
-        <div class="row well " style="opacity: 0.9 ">
+        <div class="row well opaque-me" style="opacity: 0.9">
                 <div class="col-md-6 portfolio-item ">
                     <a href="um_homem_para_a_eternidade.html">
                         <img class="img-responsive " width="75% " src="../assets/img/um_homem_para_a_eternidade.jpg">
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="row well " style="opacity: 0.9 ">
+            <div class="row well opaque-me" style="opacity: 0.9 ">
                 <div class="col-md-6 portfolio-item ">
                     <a href="tangerina.html ">
                         <img class="img-responsive " width="82% " src="../assets/img/tangerina.jpg">
@@ -92,7 +92,7 @@
                 </div>
 
             </div>
-            <div class="row well " style="opacity: 0.9 ">
+            <div class="row well opaque-me" style="opacity: 0.9">
                 <div class="col-md-6 portfolio-item ">
                     <a href="timbuktu.html ">
                         <img class="img-responsive " width="87% " src="../assets/img/timbuktu.jpg">
@@ -130,6 +130,4 @@
 
     </div>
 </template>
-
-<script>
-</script>
+<script></script>

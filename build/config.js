@@ -1,13 +1,9 @@
 'use strict'
-
+const pkg = require('../package')
 module.exports = {
   port: 4000,
   title: 'revelarte',
-  vendor: [
-    'vue',
-    'vue-router',
-    'vuex'
-  ],
+  vendor: Object.keys(pkg.dependencies),
   babel: {
     babelrc: false,
     presets: [

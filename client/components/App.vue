@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <navbar></navbar>
-    <router-view></router-view>
-    <site-footer></site-footer>
+    <div class="section">
+      <navbar></navbar>
+      <router-view></router-view>
+      <site-footer></site-footer>
+    </div>
   </div>
 </template>
 <script>
@@ -16,24 +18,16 @@ export default {
   }
 }
 </script>
-
+<!-- <style src='../assets/vendor/bs/bootstrap.min.css'></style> -->
+<style src='../assets/css/modern-business.css'></style>
 <style>
-body {
-  margin: 0;
-  font-size: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               helvetica, 'helvetica neue',
-               Ubuntu,
-               'segoe ui', arial,
-               sans-serif;
+
+.section {
+  background-image: radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #02BF86 100%);
 }
-.page {
-  text-align: center;
-}
-code {
-  background-color: #f0f0f0;
-  padding: 3px 5px;
-  border-radius: 2px;
+
+a {
+    color: #18bc9c;
+    text-decoration: none;
 }
 </style>

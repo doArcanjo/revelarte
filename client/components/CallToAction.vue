@@ -1,6 +1,5 @@
 <template>
-    <div class="section">
-        <div class="container">
+    <div class="container">
             <div class="row well">
                 <div class="col-lg-4 col-md-4">
                     <h3><i class="fa fa-check-circle"></i> Venha Participar!</h3>
@@ -16,9 +15,6 @@
                     <p>Filmes de grande valor temático e artístico, alguns dos quais galardoados e com relevo na história do cinema.</p>
                 </div>
             </div>
-
-        </div></div>  
+        </div>
 </template>
-
-<script>
-</script>
+<script></script>
