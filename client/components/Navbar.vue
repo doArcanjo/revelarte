@@ -1,7 +1,7 @@
 <template>
 <div>
     <header class="cd-auto-hide-header">
-    <div class="logo"><a href="#0"><h3>RevelAr-Te</h3></a></div>
+    <div class="navbar-brand"><a href="/"><h3>RevelAr-Te</h3></a></div>
 
     <nav class="cd-primary-nav">
         <a href="#cd-navigation" class="nav-trigger">
@@ -14,68 +14,19 @@
         <ul id="cd-navigation">
             <!-- <li><a href="#0" class="TheTeam" v-on:click="makeActive('TheTeam')">The team</a></li> -->
             <li><a href="#0" >The team</a></li>
-            <li><a href="#0">Perguntas Frequentes</a></li>
-            <li><a href="#0">Localização</a></li>
-            <li><a href="#0">Contactos</a></li>
-            <li><router-link  class="active" to="/AboutUs"><a>Sobre Nós</a></router-link></li>
+            <!-- <li>    <a v-link="{ path: '/' }">Go to Home</a></li> -->
+            <li><router-link to="/Faq">Perguntas Frequentes</router-link></li>
+            <li><router-link to="/Local">Localização</router-link></li>
+            <li><router-link to="Contact">Contactos</router-link></li>
+            <li><router-link to="/AboutUs">Sobre Nós</router-link></li>
             
         </ul>
     </nav> <!-- .cd-primary-nav -->
     <p>You chose <b>{{active}}</b></p>
 </header> <!-- .cd-auto-hide-header -->
 
-<section class="cd-hero">
-     <div id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Ciclo Cinema de Almada'); background-position:'right bottom';">
-                    <img src="../assets/img/LOGO_300_290.png" width='18%'>
-                </div>
-
-                <div class="carousel-caption">
-                    <h1 style="text-align:center"><a href="about.html">Edição 2015</a>
-                    </h1>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=de 9 a 13 de Dezembro...');">
-                    <img src="../assets/img/LOGO_300_290.png" width='18%'>
-                </div>
-                <div class="carousel-caption">
-                    <h1 style="text-align:center">
-                        <a href="index.html">Programa</a>
-                    </h1>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Forum Romeu Correia');">
-                    <img src="../assets/img/LOGO_300_290.png" width="18%" allign="bottom">
-                </div>
-                <div class="carousel-caption">
-                    <h1> <a href="local.html">Almada</a>
-                    </h1>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </div>
-</section> <!-- .cd-hero -->
-<!--
+ <!-- .cd-hero -->
+<!-- .cd-secondary-nav - ->
 <nav class="cd-secondary-nav">
     <ul>
         <li><a class="active" href="#0">Intro</a></li>
@@ -87,12 +38,13 @@
         <li><a href="#0">Compare</a></li>
         <li><a href="#0">Buy</a></li>
     </ul>
-</nav>  .cd-secondary-nav -->
-<br>
+</nav> 
+<!-- .cd-secondary-nav -->
 </div>
 </template>
 <script>
   import Autohidenav from '../assets/vendor/auto-hiding-navigation/js/auto-hiding-nav.js'
+  import Carousel from './Carousel.vue'
   export default  {
     created(){
         console.log(this.$route.path)
@@ -101,6 +53,9 @@
         return {
             active: 'AboutUs'
         }
+    },
+    components:{
+        Carousel
     },
 
     // Functions we will be using.
@@ -118,7 +73,7 @@
 <!-- <style src='../assets/vendor/auto-hiding-navigation/css/reset.css'></style> -->
 <style src='../assets/vendor/auto-hiding-navigation/css/style.css'></style>
 
-<style>
+<style >
     .cd-auto-hide-header{
         background-color: #18bc9c;
         border-color: #128f76;
@@ -126,6 +81,9 @@
     }    
     .cd-primary-nav > ul a {
          color: #fff;
+    }
+    a>h3{
+      color:#fff;
     }
 
 </style>
