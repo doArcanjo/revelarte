@@ -15,14 +15,16 @@
                 </div>
 
                 <div class="carousel-caption">
-                    <h1 style="text-align:center"><a href="about.html">Edição 2015</a>
+                    <h1 style="text-align:center"><a href="about.html">Edição 2016</a>
                     </h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=de 9 a 13 de Dezembro...');"></div>
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=de 9 a 13 de Dezembro...');">
+                    <img src="../assets/img/LOGO_300_290.png" width='18%'>
+                </div>
                 <div class="carousel-caption">
-                    <h1>
+                    <h1 style="text-align:center">
                         <a href="index.html">Programa</a>
                     </h1>
                 </div>

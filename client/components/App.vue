@@ -1,10 +1,13 @@
 <template>
   <div id="app">
+      <transition name="fade">
     <div class="section">
       <navbar></navbar>
-      <router-view></router-view>
+        <router-view class="view"></router-view>
       <site-footer></site-footer>
     </div>
+      </transition>
+    
   </div>
 </template>
 <script>
